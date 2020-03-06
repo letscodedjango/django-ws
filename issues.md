@@ -67,3 +67,6 @@ ERROR: Command errored out with exit status 1: python setup.py egg_info Check th
 ```
 
 https://stackoverflow.com/questions/58692889/cannot-install-psycopg2-on-windows-10-with-python-3-8
+
+Creating app... done, ⬢ stark-everglades-45192
+https://stark-everglades-45192.herokuapp.com/ | https://git.heroku.com/stark-everglades-45192.git
