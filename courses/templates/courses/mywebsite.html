@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -8,10 +9,10 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
     <!--  font awesome icons  -->
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="stylesheet" href="{% static 'css/all.min.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/master.css' %}" />
     <title>Bootstrap 4</title>
   </head>
   <body>
@@ -855,11 +856,12 @@
                         <span class="part bg-dark px-3 py-1 rounded font-weight font-italic text-capitalize">Batch</span>
                     </h1>
 
-                    <div class="lead mt-4 mx-30 px-20 rounded">
-                        <span class="bg-warning p-1 rounded font-weight-bold">Python Fundamentals</span class="bg-warning p-1 rounded font-weight-bold"> Beginners <br>
-                        <span class="bg-warning p-1 rounded font-weight-bold">Java Fundamentals</span> Beginners <br>
-                        <span class="bg-warning p-1 rounded font-weight-bold">Selenium Automation</span> Using Java <br>
-                    </div>
+                    <span class="lead mt-4 mx-30 px-20 rounded">
+                        <span class="bg-warning p-1 rounded font-weight-bold">Python Fundamentals></span> <span class="bg-warning p-1 rounded font-weight-bold"> Beginners</span> <br>
+                        <span class="bg-warning p-1 rounded font-weight-bold">Java Fundamentals</span> <span class="bg-warning p-1 rounded font-weight-bold"> Beginners</span>  <br>
+                        <span class="bg-warning p-1 rounded font-weight-bold">Selenium Automation</span> <span class="bg-warning p-1 rounded font-weight-bold"> Using Java</span>  <br>
+                    </span>
+                </div>
                 </div>
 
             </div>
@@ -909,14 +911,13 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.min.js"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
     <script>
       $(document).ready(function() {
         $("#testimonial-slider").owlCarousel({
