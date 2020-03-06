@@ -70,3 +70,22 @@ https://stackoverflow.com/questions/58692889/cannot-install-psycopg2-on-windows-
 
 Creating app... done, ⬢ stark-everglades-45192
 https://stark-everglades-45192.herokuapp.com/ | https://git.heroku.com/stark-everglades-45192.git
+
+Total 8350 (delta 2082), reused 8265 (delta 2058)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote:  !     No default language could be detected for this app.
+remote: 			HINT: This occurs when Heroku cannot detect the buildpack to use for this application automatically.
+remote: 			See https://devcenter.heroku.com/articles/buildpacks
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to stark-everglades-45192.
+remote: 
+To https://git.heroku.com/stark-everglades-45192.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/stark-everglades-45192.git'
+
+MAKE SURE requirement.txt must have requirements.txt
