@@ -393,3 +393,13 @@ footer.footer-area .social a:hover > i {
   background: url(background.png) 0 0 repeat;
   transform: rotate(-30deg);
 }
+
+.email-us > a{
+ text-decoration: none;
+ color: #9ca437;
+}
+
+.email-us > a:hover{
+ text-decoration: none;
+ color: #9ca437;
+}
