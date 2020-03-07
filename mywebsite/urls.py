@@ -21,9 +21,10 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', courses.views.home, name="home"),
+    path('', courses.views.my_website, name="my_website"),
+    path('home', courses.views.home, name="home"),
     path('course/<int:course_id>', courses.views.course_details, name="course-details"),
-    path('mywesite', courses.views.my_website, name="my_website"),
+    path('<str:random_str>', courses.views.page_not_found, name="404-error"),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
