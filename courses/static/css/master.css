@@ -1,0 +1,395 @@
+/*@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900&display=swap");*/
+
+@import url(./fonts.css);
+@import url("https://fonts.googleapis.com/css?family=Caveat+Brush|Cedarville+Cursive|Fascinate+Inline|Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i|Parisienne|Reenie+Beanie|Righteous&display=swap");
+@import url("./_variables.css");
+/*@import url("../img/courses/coding.jpg");*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Josefin Sans";
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Fascinate Inline";
+}
+
+.lead {
+  font-size: 2rem;
+  font-family: "Parisienne";
+}
+
+.a {
+  font-size: 1.2rem;
+}
+
+.b {
+  font-size: 1.5rem;
+}
+
+.c {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.topic {
+  color: #9ca437;
+}
+
+.place {
+  color: #9ca437;
+}
+
+.abc {
+  font-size: 1.8rem;
+}
+
+.learn {
+  color: #6f162e;
+  /* color: #8d3b72; */
+}
+
+.navbar-brand img {
+  width: 15rem;
+}
+
+.para {
+  font-family: "Josefin Sans";
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.part {
+  color: #9ca437;
+  font-family: "Parisienne";
+}
+
+/* ------ BRAND area start ---- */
+/* .site-main .brand-area {
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+} */
+
+.part {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+  /* border: 1px solid var(--border-color); */
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 0.9rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  font-family: "Reenie Beanie";
+  font-weight: bold;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+  width: 40%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img {
+  /* filter: brightness(0.15); */
+  width: 30%;
+}
+
+.single-brand img {
+  width: 80%;
+}
+
+.bg-img {
+  /* margin-bottom: 0px; */
+  opacity: 0.1;
+  color: #fff;
+  background: #fff url("../img/21618414.jpg") left no-repeat;
+  width: 60%;
+  padding-top: 0px;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 50px;
+}
+
+.bg-img-two {
+  /* margin-bottom: 0px; */
+  opacity: 0.2;
+  color: #fff;
+  background: #fff url("../img/25730427.jpg") left no-repeat;
+  width: 60%;
+  padding-top: 0px;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 50px;
+}
+
+.bg-img-three {
+  /* margin-bottom: 0px; */
+  opacity: 0.2;
+  color: #fff;
+  background: #fff url(../img/15329629.jpg) center no-repeat;
+  width: 60%;
+  padding-top: 0px;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 50px;
+}
+
+.bg-img-four {
+  /* margin-bottom: 0px; */
+  opacity: 0.1;
+  color: #fff;
+  background: #fff url(../img/9715789-2.jpg) center no-repeat;
+  width: 90%;
+  padding-top: 0px;
+  height: 90%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 0px;
+}
+
+.bg-img-five {
+  /* margin-bottom: 0px; */
+  opacity: 0.1;
+  color: #fff;
+  background: #fff url(../img/20289488.jpg) center no-repeat;
+  width: 80%;
+  padding-top: 0px;
+  height: 90%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -160px;
+  margin-left: 0px;
+}
+
+.bg-img-six {
+  /* margin-bottom: 0px; */
+  opacity: 0.1;
+  color: #fff;
+  background: #fff url(../img/aboutus.png) center no-repeat;
+  width: 80%;
+  padding-top: 0px;
+  height: 50%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -160px;
+  margin-left: 0px;
+}
+
+.jumbotron {
+  background-color: #ffff;
+  border-radius: 0.3rem;
+}
+
+.site-main .brand-area {
+  padding: 3rem 2rem;
+}
+
+/* Services Area */
+
+.site-main .services-area {
+  padding: 3rem 2rem;
+}
+
+.site-main .services-area .services-title {
+  /* padding: 0 14rem; */
+}
+
+.site-main .services-area .services-title h1 {
+  font-size: 35px;
+}
+
+.site-main > .services-area .services {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 2rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+  border-radius: 4px;
+}
+
+.site-main > .services-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.services img {
+  width: 60%;
+}
+
+.title-text {
+  font-size: 35px;
+  font-family: "Fascinate Inline";
+  color: #6f162e;
+}
+
+.card-text,
+.carousel-caption {
+  font-family: "Josefin Sans";
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.services-list div {
+  padding-bottom: 5px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #6f162e;
+}
+
+/* End Services Area */
+/* .carousel-item > img {
+  width: 40px;
+} */
+
+.site-main > .testimonials .services {
+  background: rgba(243, 248, 233, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 2rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+  border-radius: 4px;
+}
+
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/ 30px var(--josefin-sans);
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}
+
+.copyrights p {
+  font-family: "Parisienne";
+}
+/* End Footer */
+
+.site-main > .testimonials .services .card-title {
+  font-size: 1.1rem;
+  color: #6f162e;
+  font-weight: lighter;
+}
+
+.batches .lead > span {
+  font-family: "Josefin Sans";
+  font-size: 1.5rem;
+  font-weight: lighter;
+  /* border-bottom: 5px solid #ffc107; */
+}
+
+#myelement {
+  position: relative;
+  overflow: hidden;
+  transform: rotate(30deg);
+}
+
+#myelement::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(background.png) 0 0 repeat;
+  transform: rotate(-30deg);
+}
+
+#myelement-right {
+  position: relative;
+  overflow: hidden;
+  transform: rotate(-30deg);
+}
+
+#myelement-right::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(background.png) 0 0 repeat;
+  transform: rotate(-30deg);
+}
+
+#myelement-45 {
+  position: relative;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+#myelement-45::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(background.png) 0 0 repeat;
+  transform: rotate(-30deg);
+}
+
+#myelement-50 {
+  position: relative;
+  overflow: hidden;
+  transform: rotate(-50deg);
+}
+
+#myelement-50::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(background.png) 0 0 repeat;
+  transform: rotate(-30deg);
+}
