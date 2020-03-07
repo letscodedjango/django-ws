@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -14,40 +14,82 @@
     <link rel="stylesheet" href="{% static 'css/all.min.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/master.css' %}" />
     <title>Bootstrap 4</title>
-</head>
-<body>
+  </head>
+  <body>
 
-<div class="container">
+    <main class="site-main mt-4">
+      <section class="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center services-title">
+              <h1 class="text-capitalize title-text">
+                Something went
+                <span
+                  class="part bg-dark px-3 py-1 rounded font-weight font-italic text-capitalize"
+                  >wrong</span
+                >
+              </h1>
 
-    <div class="404-img img-fluid mx-auto text-center col-lg-6 col-md-12 site-img" style="width:50%;">
-        <img src="{% static '22904691.jpg' %}">
-    </div>
+              <p class="para mt-4">
+                Oh no! It looks like you landed to place where should not.
+              </p>
+                <p class="para mt-4">
+                You can click button to go back to homepage
+              </p>
+            </div>
+          </div>
+          <div class="bg-img-five img-fluid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <div class="btn btn-submit mx-auto text-center">
-        <button type="submit" class="btn bg-dark px-5 btn btn-success email-us">
-            <a href="{% url 'my_website' %}">BACK TO HOMEPAGE</a>
-        </button>
-    </div>
-    
-</div>
+      <section class="subscribe-us-area mb-6">
+        <div class="container subscribe">
+          <div class="d-sm-flex justify-content-center">
+            <form class="w-50">
+              <div class="row d-flex flex-row flex-wrap">
+                <div class="col">
+                  <div class="btn-submit">
+                    <button type="submit" class="bg-dark px-5 btn btn-success email-us">
+                      <a href="{% url 'my_website' %}">BACK TO HOME PAGE</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--  ========================== End Subscribe me Area ============================  -->
 
-<footer class="footer-area">
+    <section class="upcoming-batch-area">
+        <div class="container batches pt-5">
+            <div class="row">
+                <div class="col-lg-12 text-center batches-title">
+                    <h1 class="text-capitalize title-text">
+                        Upcoming
+                        <span class="part bg-dark px-3 py-1 rounded font-weight font-italic text-capitalize">Batch</span>
+                    </h1>
+
+                    <div class="lead mt-4 mx-30 px-20 rounded">
+                        <span class="bg-warning p-1 rounded font-weight-bold">Python Fundamentals</span> Beginners <br>
+                        <span class="bg-warning p-1 rounded font-weight-bold">Java Fundamentals</span> Beginners <br>
+                        <span class="bg-warning p-1 rounded font-weight-bold">Selenium Automation</span> Using Java <br>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    </main>
+
+
+    <footer class="footer-area">
       <div class="container">
         <div class="">
-          <div class="social text-center">
-            <h1 class="text-capitalize title-text">
-              Follow
-              <span
-                class="part bg-dark px-3 py-1 rounded font-weight font-italic text-capitalize"
-                >Us</span
-              >
-            </h1>
-            <!-- <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a> -->
-          </div>
-          <br>
           <div class="copyrights text-center">
             <p class="para">
               Copyright © 2019 All rights reserved |
@@ -65,7 +107,7 @@
       </div>
     </footer>
 
-<!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="{% static 'js/jquery.min.js' %}"></script>
     <script
@@ -87,6 +129,5 @@
         });
       });
     </script>
-
-</body>
+  </body>
 </html>
