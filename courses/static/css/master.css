@@ -315,17 +315,10 @@ footer.footer-area .social a:hover > i {
   font-weight: lighter;
 }
 
-.batches .lead > span {
-  font-family: "Josefin Sans";
-  font-size: 1.5rem;
-  font-weight: lighter;
-  /* border-bottom: 5px solid #ffc107; */
-}
-
 #myelement {
   position: relative;
   overflow: hidden;
-  transform: rotate(30deg);
+  transform: rotate(20deg);
 }
 
 #myelement::before {
@@ -337,13 +330,13 @@ footer.footer-area .social a:hover > i {
   left: -50%;
   z-index: -1;
   background: url(background.png) 0 0 repeat;
-  transform: rotate(-30deg);
+  transform: rotate(-20deg);
 }
 
 #myelement-right {
   position: relative;
   overflow: hidden;
-  transform: rotate(-20deg);
+  transform: rotate(-10deg);
 }
 
 #myelement-right::before {
@@ -355,7 +348,7 @@ footer.footer-area .social a:hover > i {
   left: -50%;
   z-index: -1;
   background: url(background.png) 0 0 repeat;
-  transform: rotate(-20deg);
+  transform: rotate(-10deg);
 }
 
 #myelement-slight-right {
@@ -410,6 +403,14 @@ footer.footer-area .social a:hover > i {
   z-index: -1;
   background: url(background.png) 0 0 repeat;
   transform: rotate(-30deg);
+}
+
+.batches-title .lead > span{
+   font-family: "Josefin Sans";
+  font-size: 1.5rem;
+  font-weight: lighter;
+  border-bottom: 5px solid #ffc107;
+
 }
 
 .email-us > a{
