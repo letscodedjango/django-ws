@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'j&ftlqe(xp=j$6jw^m(!5ld6j9bzvq1ohkfasa54b)8s#r8e-#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['stark-everglades-45192.herokuapp.com','www.explorechoice.org', 'explorechoice.org', 'localhost']
 
