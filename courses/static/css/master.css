@@ -422,3 +422,7 @@ footer.footer-area .social a:hover > i {
  text-decoration: none;
  color: #9ca437;
 }
+
+.keywords {
+  border-bottom: 3px solid #ffc107;
+}
